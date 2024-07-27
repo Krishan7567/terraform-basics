@@ -14,6 +14,6 @@ variable "list" {
 }
 
 output "test" {
-    value = "hi ${var.list[0] and ${var.list[1],}"
+    value = "${var.list[0]"
   
 }
