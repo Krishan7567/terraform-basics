@@ -7,3 +7,13 @@ output "sample" {
     value = var.ag
   
 }
+
+variable "list" {
+    default = ["hello", "test", "yes"]
+  
+}
+
+output "test" {
+    value = var.list
+  
+}
