@@ -18,9 +18,9 @@ output "test" {
   
 }
 
-variable "maps" {
+variable "ex-maps" {
     default = {
-        lang = "eng"
+        lang = "eng",
         day  = "Mon"
     }
   
