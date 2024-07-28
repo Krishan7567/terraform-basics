@@ -27,6 +27,6 @@ variable "ex-maps" {
 }
 
 output "maps" {
-    value = var.maps
+    value = var.ex-maps
   
 }
