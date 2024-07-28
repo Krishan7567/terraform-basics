@@ -20,8 +20,8 @@ output "test" {
 
 variable "maps" {
     default = {
-        lang = eng
-        day  = Mon
+        lang = "eng"
+        day  = "Mon"
     }
   
 }
