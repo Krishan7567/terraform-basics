@@ -30,3 +30,11 @@ output "maps" {
     value = var.ex-maps
   
 }
+
+variable "empty" {
+      
+}
+
+output "empty" {
+    value = var.empty  
+}
