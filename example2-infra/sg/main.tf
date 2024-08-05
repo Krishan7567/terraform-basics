@@ -1,5 +1,5 @@
-resource "aws_security_group" "ssh_allow" {
-  name        = "ssh_allow"
+resource "aws_security_group" "allow_ssh" {
+  name        = "allow_ssh"
   description = "Allow ssh inbound traffic and all outbound traffic"
 
   ingress {
@@ -17,12 +17,6 @@ resource "aws_security_group" "ssh_allow" {
   }
 
   tags = {
-    Name = "ssh_allow"
+    Name = "allow_ssh"
   }
-}
-
-#output
-
-output "sgid" {
-    value = aws_security_group.ssh_allow
 }
