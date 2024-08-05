@@ -1,5 +1,5 @@
 resource "aws_security_group" "ssh_allow" {
-  name        = "allow_ssh"
+  name        = "ssh_allow"
   description = "Allow ssh inbound traffic and all outbound traffic"
 
   ingress {
@@ -17,7 +17,7 @@ resource "aws_security_group" "ssh_allow" {
   }
 
   tags = {
-    Name = "allow_ssh"
+    Name = "ssh_allow"
   }
 }
 
