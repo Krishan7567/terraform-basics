@@ -1,5 +1,5 @@
 resource "aws_security_group" "robo" {
-  name        = "robo"
+  name        = "${var.COMPONENT}"
   description = "Allow ssh inbound traffic and all outbound traffic"
 
   ingress {
