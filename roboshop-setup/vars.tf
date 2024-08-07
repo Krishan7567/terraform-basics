@@ -1,1 +1,3 @@
-variable "COMPONENT" {}
+variable "COMPONENT" {
+    default = "frontend"
+}
