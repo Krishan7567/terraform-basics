@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   vpc_security_group_ids    = [aws_security_group.robo.id]
 
   tags = {
-    Name = "var.COMPONENT"
+    Name = "${var.COMPONENT}"
   }
 }
 
