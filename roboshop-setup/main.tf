@@ -1,19 +1,6 @@
 module "mongodb" {
  source      =   "./ec2"
- COMPONENT   =   "mongodb"
+ COMPONENT   =   "var.frontend"
  }
 
- module "redis" {
- source      =   "./ec2"
- COMPONENT   =   "redis"
- }
-
- module "test" {
- source      =   "./ec2"
- COMPONENT   =   "test"
- }
-
- module "master" {
- source      =   "./ec2"
- COMPONENT   =   "master"
- }
+ 
